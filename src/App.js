@@ -3,29 +3,35 @@ import './App.css';
 import { ProductsAPI } from './data/apiProducts';
 import useFetch from './components/useFetch';
 import { useEffect, useState } from 'react';
-import Article from './components/Article'
+import Article from './components/Article';
+import Header from './components/Header';
 
 
+const getValueFromLocalStorage = () =>{
+  if(localStorage.getItem('theme')){
+    return localStorage.getItem('theme');
+  }else{
+    return 'light-mode';
+  }
+}
 function App() {
 
-  const [theme,setTheme] = useState('light-mode');
+  const [theme, setTheme] = useState(getValueFromLocalStorage());
   const { data, isLoading } = useFetch(ProductsAPI);
 
-  // theme change in html change class (dark o light)
-  useEffect(()=>{
+  // theme change in html change classname (dark o light)
+  useEffect(() => {
     document.documentElement.className = theme;
+    localStorage.setItem('theme', theme);
 
-  },[theme])
-
-  // Storage theme selected
-  
+  }, [theme])
 
 
-  // fun cambia tehme 
-  const chagneTheme = () =>{
-    if(theme === 'light-mode'){
+  // fun arrow change tehme 
+  const chagneTheme = () => {
+    if (theme === 'light-mode') {
       setTheme('dark-mode')
-    }else{
+    } else {
       setTheme('light-mode')
     }
   }
@@ -36,7 +42,12 @@ function App() {
         <button className="btn my-5" onClick={chagneTheme}>
           Change
         </button>
+
+        <Header url={ProductsAPI}/>
         <section className="article-section">
+       
+
+
           {isLoading ? (
             <h3>Loading...</h3>
           ) :
@@ -50,7 +61,6 @@ function App() {
     </section>
   );
 }
-
 
 
 export default App;
