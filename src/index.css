@@ -311,8 +311,10 @@ article p {
     max-width: 600px;
   }
   .img {
-    height: 350px;
+    height: 250px;
+    width: auto;
   }
+
 }
 
 .btn-group {
@@ -355,3 +357,6 @@ article p {
 h1,h2 {
   color: var(--clr-text);
 }
+
+
+
