@@ -296,6 +296,7 @@ article p {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
+  color: var(--clr-text);
 }
 .img {
   position: relative;
@@ -324,6 +325,7 @@ article p {
   -ms-justify-content: space-between;
   justify-content: space-between;
   width: 100%;
+  color: var(--clr-text);
 }
 
 .btn-group .btn-reset {
@@ -333,7 +335,7 @@ article p {
 
 .btn-group .btn-reset:hover {
   background-color: var(--secondary-blue);
-  color: white;
+  color: var(--clr-text)
 }
 
 .btn-group .btn-delete {
@@ -345,4 +347,11 @@ article p {
 .btn-delete:hover {
   background-color: var(--delete-color);
   color: white;
+}
+.carusle-group *{
+ color: var(--clr-text);
+}
+
+h1,h2 {
+  color: var(--clr-text);
 }

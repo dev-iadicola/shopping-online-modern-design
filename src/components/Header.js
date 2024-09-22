@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import useFetch from "./useFetch";
+import Carusel from "./Carusel";
 
 const titleStyle = {
     width: 'fit-content',
@@ -27,26 +28,10 @@ const Header = ({ url }) => {
         <section style={titleStyle}>
             <h1>Shop</h1>
             <div className="underline"></div>
-            {prodotto.length > 0 ?( <Carusel data={...prodotto[selectId]} />) :( <h2 className="p-4 shadow">Welcome!</h2>)}
+            {prodotto.length > 0 ?( <Carusel {...prodotto[selectId]} />) :( <h2 className="p-4 shadow">Welcome!</h2>)}
         </section>
     );
 };
 
-const Carusel = ({ id, title,  }) => {
-  return (
-      <div>
-          <h2>All Products</h2>
-           
-                <div className="d-flex mx-auto justify-content-center">
-                <img src={item.image} alt={item.title} className="object-fit-cover border rounded " height={700} />
-
-                </div>
-                  <h3>{item.title}</h3>
-                  <p>{item.price}</p>
-                  <p>{item.description}</p>
-           
-      </div>
-  );
-};
 
 export default Header;

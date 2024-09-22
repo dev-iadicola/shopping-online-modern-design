@@ -17,7 +17,7 @@ const Article = ({ title, price, description, category, image }) => {
                 />
                 <div className="fs-3 my-3 fw-bold">
 
-                    <span className="text-success">€</span> {price}
+                    <span className="text-success">€</span>  {(price).toFixed(2)}
 
                 </div>
                 <div className='py-4 fs-5' onClick={() => setFullString(!fullString)} >
