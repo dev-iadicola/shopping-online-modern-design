@@ -1,3 +1,33 @@
+# Shop Online
+Visualizza il progetto online [Shop Online](https://androluix.github.io/shopping-online-modern-design/)
+# Shop Online con React
+
+Questo progetto è uno shop online realizzato con **React**, caratterizzato da un design moderno e responsivo. L'utente può navigare tra i vari prodotti, aggiungerli al carrello, e cambiare il tema dell'interfaccia (light/dark mode) per un'esperienza personalizzata.
+
+## Funzionalità
+
+
+- **Cambio tema:** L'utente può passare da un tema chiaro a uno scuro per migliorare l'esperienza visiva.
+- **Design responsivo:** Il sito è completamente ottimizzato per dispositivi mobili e desktop.
+
+### Funzionalità in futuro
+- **Navigazione intuitiva:** Gli utenti possono esplorare facilmente i prodotti, filtrare per categorie e visualizzare i dettagli di ciascun articolo.
+- **Carrello dinamico:** Possibilità di aggiungere, rimuovere e aggiornare i prodotti nel carrello, nei preferiti o acquistare subito il prodotto.
+  
+## Demo
+
+Puoi visualizzare il progetto live a questo [link](#) (sostituisci con il link effettivo).
+
+## Installazione
+
+Per eseguire il progetto in locale, segui questi passaggi:
+
+### 1. Clona il repository
+
+```bash
+git clone https://github.com/tuo-username/tuo-repo.git
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
