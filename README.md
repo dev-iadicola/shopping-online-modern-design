@@ -1,5 +1,5 @@
 # Shop Online
-Visualizza il progetto online [Shop Online](https://androluix.github.io/shopping-online-modern-design/)
+Visualizza il progetto online [Shop Online](https://dev-iadicola.github.io/shopping-online-modern-design/)
 # Shop Online con React
 
 Questo progetto è uno shop online realizzato con **React**, caratterizzato da un design moderno e responsivo. L'utente può navigare tra i vari prodotti, aggiungerli al carrello, e cambiare il tema dell'interfaccia (light/dark mode) per un'esperienza personalizzata.
