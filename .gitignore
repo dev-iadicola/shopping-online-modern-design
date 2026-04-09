@@ -10,6 +10,8 @@
 
 # production
 /build
+/dist
+/todo.md
 
 # misc
 .DS_Store

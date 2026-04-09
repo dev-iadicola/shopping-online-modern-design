@@ -1,1 +1,1 @@
-export const ProductsAPI = "https://fakestoreapi.com/products";
+export const ProductsAPI = `${import.meta.env.BASE_URL}products.json`;
