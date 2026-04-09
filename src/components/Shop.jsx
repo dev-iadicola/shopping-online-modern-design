@@ -189,6 +189,20 @@ function Shop() {
                 </Col>
               ))}
         </Row>
+
+        <footer className="site-footer">
+          <p>
+            Powered by{' '}
+            <a
+              href="https://iadicola.netsons.org/"
+              target="_blank"
+              rel="noreferrer"
+              className="site-footer-link"
+            >
+              Luigi Iadicola
+            </a>
+          </p>
+        </footer>
       </Container>
     </main>
   );

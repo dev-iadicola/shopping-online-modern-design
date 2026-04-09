@@ -15,7 +15,7 @@ const Header = ({ products, stats, theme, onThemeToggle }) => {
         <Col lg={5}>
           <div className="hero-copy-panel">
          
-            <h1 className="hero-title">Purchases are disabled in this demo.</h1>
+            <h1 className="hero-title">Designed and built by Luigi Iadicola.</h1>
             <p className="hero-description">
               The current selection ranges from € {stats.minPrice.toFixed(2)} to
               {' '}€ {stats.maxPrice.toFixed(2)}, with an average catalog rating of

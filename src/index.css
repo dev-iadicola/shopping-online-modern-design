@@ -518,6 +518,21 @@ p {
   padding-bottom: 1.5rem;
 }
 
+.site-footer {
+  padding: 2.5rem 0 0.5rem;
+  text-align: center;
+  color: var(--text-secondary);
+}
+
+.site-footer-link {
+  color: var(--accent-strong);
+  font-weight: 700;
+}
+
+.site-footer-link:hover {
+  color: var(--accent);
+}
+
 .product-card {
   position: relative;
   overflow: hidden;
