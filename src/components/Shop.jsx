@@ -101,6 +101,14 @@ function Shop() {
 
   return (
     <main className="shop-page">
+      <a
+        href="https://iadicola.netsons.org/contatti"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="contact-fixed-btn"
+      >
+        Contact me
+      </a>
       <div className="shop-bg shop-bg-left"></div>
       <div className="shop-bg shop-bg-right"></div>
       <Container className="shop-shell py-4 py-lg-5">

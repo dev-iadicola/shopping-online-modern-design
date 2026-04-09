@@ -108,6 +108,32 @@ p {
   overflow: hidden;
 }
 
+.contact-fixed-btn {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.65rem 1.3rem;
+  border: 0;
+  border-radius: 999px;
+  background: linear-gradient(135deg, var(--accent), var(--accent-strong));
+  color: #fff;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(212, 79, 34, 0.3);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.contact-fixed-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(212, 79, 34, 0.4);
+  color: #fff;
+}
+
 .shop-bg {
   position: absolute;
   border-radius: 999px;
