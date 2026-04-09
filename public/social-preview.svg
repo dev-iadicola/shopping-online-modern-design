@@ -1,0 +1,38 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F4EEE8"/>
+  <rect x="34" y="34" width="1132" height="562" rx="44" fill="#171C20"/>
+  <circle cx="159" cy="123" r="12" fill="#FF8A59"/>
+  <circle cx="199" cy="123" r="12" fill="#2F3A42"/>
+  <circle cx="239" cy="123" r="12" fill="#2F3A42"/>
+  <rect x="86" y="170" width="428" height="294" rx="32" fill="url(#paint0_linear_210_2)"/>
+  <rect x="132" y="213" width="336" height="208" rx="24" fill="#F1E7DD"/>
+  <ellipse cx="300" cy="379" rx="105" ry="18" fill="#D1B6A1" opacity="0.4"/>
+  <rect x="198" y="287" width="204" height="24" rx="12" fill="#A36E45"/>
+  <rect x="206" y="296" width="188" height="18" rx="9" fill="#BA8358"/>
+  <rect x="224" y="311" width="12" height="106" rx="6" fill="#8C6041"/>
+  <rect x="364" y="311" width="12" height="106" rx="6" fill="#8C6041"/>
+  <rect x="254" y="311" width="10" height="106" rx="5" fill="#966846"/>
+  <rect x="336" y="311" width="10" height="106" rx="5" fill="#966846"/>
+  <path d="M215 292C250 273 351 273 386 292" stroke="#D8A67C" stroke-width="5" stroke-linecap="round" opacity="0.65"/>
+  <text fill="#FF8A59" xml:space="preserve" style="white-space: pre" font-family="Arial, sans-serif" font-size="26" font-weight="700" letter-spacing="0.18em">
+    <tspan x="574" y="180.111">SHOP ONLINE</tspan>
+  </text>
+  <text fill="#F6EFE9" xml:space="preserve" style="white-space: pre" font-family="Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="-0.04em">
+    <tspan x="574" y="275.641">Modern storefront </tspan>
+    <tspan x="574" y="353.641">for everyday shopping</tspan>
+  </text>
+  <text fill="#C7BAB0" xml:space="preserve" style="white-space: pre" font-family="Arial, sans-serif" font-size="30" font-weight="400">
+    <tspan x="574" y="429.154">Responsive ecommerce concept with curated products,</tspan>
+    <tspan x="574" y="468.154">dark mode, product cards, and a polished editorial feel.</tspan>
+  </text>
+  <rect x="574" y="507" width="205" height="52" rx="26" fill="#FF8A59"/>
+  <text fill="#FFF7F1" xml:space="preserve" style="white-space: pre" font-family="Arial, sans-serif" font-size="24" font-weight="700">
+    <tspan x="624" y="541.438">Browse catalog</tspan>
+  </text>
+  <defs>
+    <linearGradient id="paint0_linear_210_2" x1="86" y1="170" x2="514" y2="464" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2B241F"/>
+      <stop offset="1" stop-color="#10252A"/>
+    </linearGradient>
+  </defs>
+</svg>

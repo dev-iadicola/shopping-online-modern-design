@@ -107,7 +107,7 @@ function Shop() {
         <section className="masthead-bar">
           <div>
             <p className="masthead-label">Shop Online</p>
-            <h2>Live catalog overview</h2>
+            <h2>Modern Markeplace</h2>
           </div>
           <Button variant="link" className="masthead-theme-link" onClick={toggleTheme}>
             Theme: {theme === 'light-mode' ? 'Light' : 'Dark'}

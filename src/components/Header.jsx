@@ -14,11 +14,8 @@ const Header = ({ products, stats, theme, onThemeToggle }) => {
       <Row className="g-4 align-items-stretch">
         <Col lg={5}>
           <div className="hero-copy-panel">
-            <Badge pill bg="light" text="dark" className="hero-badge">
-              Catalog refreshed · {stats.totalProducts} items
-            </Badge>
-            <p className="hero-kicker">Real catalog snapshot</p>
-            <h1 className="hero-title">Twenty products across seven everyday shopping categories.</h1>
+         
+            <h1 className="hero-title">Purchases are disabled in this demo.</h1>
             <p className="hero-description">
               The current selection ranges from € {stats.minPrice.toFixed(2)} to
               {' '}€ {stats.maxPrice.toFixed(2)}, with an average catalog rating of

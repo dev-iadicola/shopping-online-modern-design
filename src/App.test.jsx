@@ -25,7 +25,6 @@ vi.mock('./components/useFetch', () => ({
 
 test('renders the redesigned storefront hero', () => {
   render(<App />);
-  expect(screen.getByText(/real catalog snapshot/i)).toBeInTheDocument();
   expect(screen.getAllByText(/nova glass lamp/i).length).toBeGreaterThan(0);
   expect(screen.getByRole('button', { name: /browse catalog/i })).toBeInTheDocument();
 });
