@@ -1,100 +1,60 @@
 # Shop Online
-Visualizza il progetto online [Shop Online](https://dev-iadicola.github.io/shopping-online-modern-design/)
-# Shop Online con React
 
-Questo progetto è uno shop online realizzato con **React**, caratterizzato da un design moderno e responsivo. L'utente può navigare tra i vari prodotti, aggiungerli al carrello, e cambiare il tema dell'interfaccia (light/dark mode) per un'esperienza personalizzata.
+Frontend ecommerce concept built with React and Vite.
 
-## Funzionalità
+Live demo:
+[https://dev-iadicola.github.io/shopping-online-modern-design/](https://dev-iadicola.github.io/shopping-online-modern-design/)
 
+## Stack
 
-- **Cambio tema:** L'utente può passare da un tema chiaro a uno scuro per migliorare l'esperienza visiva.
-- **Design responsivo:** Il sito è completamente ottimizzato per dispositivi mobili e desktop.
+- React 18
+- Vite
+- React-Bootstrap
+- Swiper
+- Lucide React
 
-### Funzionalità in futuro
-- **Navigazione intuitiva:** Gli utenti possono esplorare facilmente i prodotti, filtrare per categorie e visualizzare i dettagli di ciascun articolo.
-- **Carrello dinamico:** Possibilità di aggiungere, rimuovere e aggiornare i prodotti nel carrello, nei preferiti o acquistare subito il prodotto.
-  
-## Demo
+## Features
 
-Puoi visualizzare il progetto live a questo [link](#) (sostituisci con il link effettivo).
+- Responsive editorial-style storefront
+- Light and dark theme toggle
+- Local catalog dataset for stable development and production builds
+- Product carousel, cards, feedback toasts, and image fallbacks
+- Docker production build with Nginx
 
-## Installazione
-
-Per eseguire il progetto in locale, segui questi passaggi:
-
-### 1. Clona il repository
+## Local development
 
 ```bash
-git clone https://github.com/tuo-username/tuo-repo.git
+npm install
+npm start
+```
 
+Default dev server:
 
-# Getting Started with Create React App
+```bash
+http://localhost:5173
+```
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Test and build
 
-## Available Scripts
+```bash
+npm test
+npm run build
+```
 
-In the project directory, you can run:
+## Docker
 
-### `npm start`
+```bash
+docker build -t shop-online .
+docker run --rm -p 8080:80 shop-online
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Then open:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+http://localhost:8080
+```
 
-### `npm test`
+## Notes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- The catalog is served from `public/products.json`.
+- Production asset paths use Vite `base`, so GitHub Pages deploys work correctly.
