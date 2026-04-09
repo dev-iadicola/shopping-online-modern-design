@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "Nova Glass Lamp",
+    "price": 129.99,
+    "description": "A sculptural table lamp with smoked glass, brushed brass details, and a warm ambient glow designed for modern living rooms and boutique bedrooms.",
+    "category": "home decor",
+    "image": "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.8,
+      "count": 128
+    }
+  },
+  {
+    "id": 2,
+    "title": "Contour Leather Weekender",
+    "price": 189.0,
+    "description": "A soft structured travel bag in matte leather with generous internal compartments, polished hardware, and a silhouette that works from airport to city break.",
+    "category": "bags",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.6,
+      "count": 93
+    }
+  },
+  {
+    "id": 3,
+    "title": "Mono Knit Overshirt",
+    "price": 84.5,
+    "description": "An elevated overshirt with a relaxed cut, textured knit finish, and versatile monochrome palette for everyday layering across seasons.",
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.7,
+      "count": 211
+    }
+  },
+  {
+    "id": 4,
+    "title": "Studio Noise-Cancel Headphones",
+    "price": 249.9,
+    "description": "Wireless over-ear headphones with adaptive noise canceling, premium foam cushions, and a crisp balanced sound profile tuned for long listening sessions.",
+    "category": "tech",
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.9,
+      "count": 347
+    }
+  },
+  {
+    "id": 5,
+    "title": "Arc Ceramic Vase",
+    "price": 56.0,
+    "description": "A hand-finished ceramic vase with a soft off-white glaze and sculptural curved profile that adds quiet contrast to shelves, consoles, and dining tables.",
+    "category": "home decor",
+    "image": "https://images.unsplash.com/photo-1612196808214-b7e239e5a0cc?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.5,
+      "count": 74
+    }
+  },
+  {
+    "id": 6,
+    "title": "Pulse Running Sneakers",
+    "price": 118.0,
+    "description": "Lightweight trainers with responsive foam, a breathable knit upper, and a streamlined silhouette designed for movement, errands, and casual styling.",
+    "category": "footwear",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.4,
+      "count": 189
+    }
+  },
+  {
+    "id": 7,
+    "title": "Orbit Desk Clock",
+    "price": 42.75,
+    "description": "A compact desk clock with silent sweep movement, brushed aluminum housing, and a minimal face inspired by gallery interiors and studio workspaces.",
+    "category": "workspace",
+    "image": "https://images.unsplash.com/photo-1517705008128-361805f42e86?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.3,
+      "count": 58
+    }
+  },
+  {
+    "id": 8,
+    "title": "Frame Sunglasses",
+    "price": 72.0,
+    "description": "Bold acetate sunglasses with warm gradient lenses, balanced proportions, and a clean geometric profile for summer city wear.",
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1511499767150-a48a237f0083?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.6,
+      "count": 136
+    }
+  },
+  {
+    "id": 9,
+    "title": "Matte Black Smartwatch",
+    "price": 299.0,
+    "description": "A sleek fitness-focused smartwatch with AMOLED display, heart-rate tracking, and a minimal matte-black case designed for all-day wear from gym to office.",
+    "category": "tech",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.7,
+      "count": 264
+    }
+  },
+  {
+    "id": 10,
+    "title": "Linen Relaxed Blazer",
+    "price": 145.0,
+    "description": "An unstructured linen blazer with a soft shoulder, patch pockets, and a breathable weave perfect for warm-weather styling and smart-casual events.",
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.5,
+      "count": 97
+    }
+  },
+  {
+    "id": 11,
+    "title": "Walnut Desk Organizer",
+    "price": 38.5,
+    "description": "A handcrafted walnut desk organizer with clean lines and multiple compartments for pens, cards, and small tools — a refined addition to any workspace.",
+    "category": "workspace",
+    "image": "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.4,
+      "count": 63
+    }
+  },
+  {
+    "id": 12,
+    "title": "Canvas Mini Crossbody",
+    "price": 62.0,
+    "description": "A compact waxed-canvas crossbody bag with leather trim, adjustable strap, and just enough room for essentials — ideal for markets and weekend walks.",
+    "category": "bags",
+    "image": "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.3,
+      "count": 82
+    }
+  },
+  {
+    "id": 13,
+    "title": "Copper Pour-Over Set",
+    "price": 74.0,
+    "description": "A polished copper pour-over coffee dripper with a double-wall borosilicate carafe and reusable stainless filter — crafted for ritual and flavor.",
+    "category": "home decor",
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.8,
+      "count": 152
+    }
+  },
+  {
+    "id": 14,
+    "title": "Suede Chelsea Boots",
+    "price": 168.0,
+    "description": "Classic chelsea boots in soft Italian suede with elastic side panels, a slim rubber sole, and a timeless silhouette that pairs with denim or tailoring.",
+    "category": "footwear",
+    "image": "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.6,
+      "count": 201
+    }
+  },
+  {
+    "id": 15,
+    "title": "Titanium Pen",
+    "price": 55.0,
+    "description": "A precision-machined titanium ballpoint pen with a satisfying click mechanism, knurled grip, and a weight that makes every note feel intentional.",
+    "category": "workspace",
+    "image": "https://images.unsplash.com/photo-1585336261022-680e295ce3fe?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.5,
+      "count": 119
+    }
+  },
+  {
+    "id": 16,
+    "title": "Oversized Wool Scarf",
+    "price": 49.0,
+    "description": "A generously sized merino wool scarf with a subtle herringbone pattern and fringed edges — adds warmth and texture to any cold-weather outfit.",
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1520903920243-00d872a2d1c9?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.2,
+      "count": 88
+    }
+  },
+  {
+    "id": 17,
+    "title": "Portable Bluetooth Speaker",
+    "price": 89.0,
+    "description": "A compact waterproof speaker with rich 360° sound, 12-hour battery, and a fabric-wrapped body designed for picnics, showers, and impromptu playlists.",
+    "category": "tech",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.4,
+      "count": 175
+    }
+  },
+  {
+    "id": 18,
+    "title": "Ribbed Cotton Tee",
+    "price": 34.0,
+    "description": "A staple ribbed-knit tee in premium organic cotton with a slightly cropped relaxed fit — pairs effortlessly with high-waist trousers and layered looks.",
+    "category": "fashion",
+    "image": "https://images.unsplash.com/photo-1562157873-818bc0726f68?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.6,
+      "count": 310
+    }
+  },
+  {
+    "id": 19,
+    "title": "Terrazzo Coasters Set",
+    "price": 28.0,
+    "description": "A set of four terrazzo coasters with cork backing, each featuring a unique chip pattern — functional art for your coffee table or home bar.",
+    "category": "home decor",
+    "image": "https://images.unsplash.com/photo-1616486029423-aaa4789e8c9a?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.3,
+      "count": 47
+    }
+  },
+  {
+    "id": 20,
+    "title": "Leather Card Wallet",
+    "price": 42.0,
+    "description": "A slim vegetable-tanned leather card wallet with four slots and a center pocket — ages beautifully and fits comfortably in any front pocket.",
+    "category": "accessories",
+    "image": "https://images.unsplash.com/photo-1627123424574-724758594e93?auto=format&fit=crop&w=900&q=80",
+    "rating": {
+      "rate": 4.7,
+      "count": 224
+    }
+  }
+]
